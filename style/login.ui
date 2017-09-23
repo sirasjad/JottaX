@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>498</height>
+    <width>830</width>
+    <height>588</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>300</x>
       <y>10</y>
       <width>241</width>
       <height>31</height>
@@ -30,8 +30,8 @@
    <widget class="QRadioButton" name="radioButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>60</y>
+      <x>110</x>
+      <y>190</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -48,8 +48,8 @@
    <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>60</y>
+      <x>330</x>
+      <y>190</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -66,8 +66,8 @@
    <widget class="QRadioButton" name="radioButton_3">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>60</y>
+      <x>570</x>
+      <y>190</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -81,30 +81,12 @@
      <string>Lefdal Cloud</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_4">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>60</y>
-      <width>111</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Get Sky</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>140</y>
-      <width>241</width>
+      <y>300</y>
+      <width>281</width>
       <height>51</height>
      </rect>
     </property>
@@ -124,8 +106,8 @@
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>200</y>
-      <width>241</width>
+      <y>360</y>
+      <width>281</width>
       <height>51</height>
      </rect>
     </property>
@@ -150,8 +132,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>450</y>
+      <x>270</x>
+      <y>560</y>
       <width>291</width>
       <height>21</height>
      </rect>
@@ -163,8 +145,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>270</y>
+      <x>330</x>
+      <y>430</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -173,13 +155,61 @@
      <string>Login</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/jotta.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/elkjop.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>60</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/lefdal.png</pixmap>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>830</width>
      <height>25</height>
     </rect>
    </property>
